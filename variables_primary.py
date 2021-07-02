@@ -1,7 +1,7 @@
-# author: <name here>
-# date: <date here>
+# author: <Samaiya Howard>
+# date: <7/2/21>
 #
-# description: <fill in>
+# description: <Vairables practice page 1>
 
 # --------------- Section 1 --------------- #
 
@@ -24,7 +24,10 @@ example_name = 'elia'
 print('EXAMPLE: my name is', example_name)
 
 # WRITE CODE BELOW
-
+name = "Samaiya Howard"
+birthday = "August 25"
+animal = "lion"
+print("My name is:", name + "\n" +"My birthday is:",birthday + "\n" +"and the animal I like is:", animal)
 
 
 # 1.2 | Variable Creation | Integers / Floats
@@ -45,6 +48,12 @@ print('EXAMPLE: my name is', example_name)
 #   5) Print each variable, describing the value you print.
 
 # WRITE CODE BELOW
+print()
+favNum = 4
+birthday_monthDay = "thursday"
+negNum = -256
+decimalNum = 3.14159
+print("My favorite number is:", favNum, "\n", "My birthday day is:",birthday_monthDay, "\n", "A negative number is:",negNum, "\n", "A decimal number is:",decimalNum)
 
 
 
@@ -67,7 +76,12 @@ example_name = 'lucia'
 print('EXAMPLE: my new name is', example_name)
 
 # WRITE CODE BELOW
-
+print()
+myName = name
+myBirthday = birthday
+UnluckyNum = favNum
+UnluckyNum = -6
+print("My name is:",myName,"\n","My birthday is:",myBirthday,"\n","The number I think that is unlucky is:",UnluckyNum)
 
 
 # 1.4 | Operations
@@ -95,3 +109,12 @@ example_sum = 11 + 21
 print('EXAMPLE: the sum of 11 and 21 is', example_sum)
 
 # WRITE CODE BELOW
+sum1 = 1073 + 47
+productOf3 = 20 + 17 + 67
+sumProductdivided = sum1 / productOf3
+nameandanimal = myName + animal
+myacronym = "ttyl"*25
+numSubtracted = 790 - 734
+unlucksubtractnum = numSubtracted - UnluckyNum
+luckynum = favNum ** favNum
+print("the sum of 1073 and 47 is:",sum1,"\n","The product of 20, 17, and 67 is:",productOf3,"\n","The sum of 1073 & 47 divided by the product of 20,17 & 67 is:",sumProductdivided,"\n","The concatenation of my name and an animal I like is:",nameandanimal,"\n","One acronym I chose multiplied by my birthday is:", myacronym,"\n","A number difference subtracted by my unlucky number is:",unlucksubtractnum,"\n","My lucky num squared is:", luckynum)

@@ -2,39 +2,39 @@ name: <name here>
 date: <date here>
 
 1) What is a variable?
-
+A letter or word that is used to store information.
 
 
 2) Are variable names case-sensitive? Is a variable named a the same as a variable named A?
-
+Variable names are case-sensitive. An vairable that is named "a" is not the same as the vairable named "A".
 
 
 3) What characters are you allowed to use in a variable name?
-
+you are allowed to use A-Z, a-z, 0-9, and _
 
 
 3) Can a variable that originally holds a string hold a different type later on?
-
+yes
 
 
 4) Can you save the contents of one variable to another? Example:
     x = 5
     y = x
    What is the value of y?
+The value of y is 5.
 
 
-
-5) Does using the variable in an operation cause the variable's value to change? How can you cause a variable's value
-    to change?
-
+5) Does using the variable in an operation cause the variable's value to change? How can you cause a variable's value to change?
+Yes, You can cause a variable's value to change by adding, subtracting, multipling, dividing using true and floor division, squaring and using modulus itself by another number.
 
 
 6) Why do we use variables, what is their purpose?
-
+We use variables to store information. Their purpose is to keep the stored information in the vairable until we use it again.
 
 
 7) What is the difference between a literal and a variable?
-
+The difference between a literal and a variable is a literal is just the exact number that you are inputing. A vairable is a letter or phrase that has information stored so it can be used later. 
 
 
 8) Why are we allowed to write the code x = x + 5, when in math this would be a contradiction?
+We are allowed to write that code in but not in math because while in coding the vairable has stored information that can be used multiple times and can be changed but in math once that vairable is stored it stays the same information that you store it to.
